@@ -17,6 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     NSLog(@"小燕子,穿花衣");
+    NSLog(@"年年春天来这里");
     
     NSLog(@"你是猴子请来的逗逼吗?");
 }
