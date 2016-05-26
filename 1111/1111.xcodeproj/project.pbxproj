@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3480E7A51CF6FA2100BB1554 /* my.m in Sources */ = {isa = PBXBuildFile; fileRef = 3480E7A41CF6FA2100BB1554 /* my.m */; };
 		348D4B9F1CF6F29D00644F51 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 348D4B9E1CF6F29D00644F51 /* main.m */; };
 		348D4BA21CF6F29D00644F51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 348D4BA11CF6F29D00644F51 /* AppDelegate.m */; };
 		348D4BA51CF6F29D00644F51 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 348D4BA41CF6F29D00644F51 /* ViewController.m */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3480E7A31CF6FA2100BB1554 /* my.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = my.h; sourceTree = "<group>"; };
+		3480E7A41CF6FA2100BB1554 /* my.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = my.m; sourceTree = "<group>"; };
 		348D4B9A1CF6F29D00644F51 /* 1111.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 1111.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		348D4B9E1CF6F29D00644F51 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		348D4BA01CF6F29D00644F51 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -62,6 +65,8 @@
 				348D4BA11CF6F29D00644F51 /* AppDelegate.m */,
 				348D4BA31CF6F29D00644F51 /* ViewController.h */,
 				348D4BA41CF6F29D00644F51 /* ViewController.m */,
+				3480E7A31CF6FA2100BB1554 /* my.h */,
+				3480E7A41CF6FA2100BB1554 /* my.m */,
 				348D4BA61CF6F29D00644F51 /* Main.storyboard */,
 				348D4BA91CF6F29D00644F51 /* Assets.xcassets */,
 				348D4BAB1CF6F29D00644F51 /* LaunchScreen.storyboard */,
@@ -150,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				348D4BA51CF6F29D00644F51 /* ViewController.m in Sources */,
+				3480E7A51CF6FA2100BB1554 /* my.m in Sources */,
 				348D4BA21CF6F29D00644F51 /* AppDelegate.m in Sources */,
 				348D4B9F1CF6F29D00644F51 /* main.m in Sources */,
 			);
@@ -298,6 +304,7 @@
 				348D4BB31CF6F29D00644F51 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
